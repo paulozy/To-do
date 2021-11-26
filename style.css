@@ -1,0 +1,42 @@
+
+.container {
+  max-width: 400px;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+  outline: none;
+}
+
+input[type=text],
+input[type=text]::placeholder {
+  color: rgb(192, 192, 192)
+}
+
+.todos-container li {
+  background: #484E53;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.bg-purple {
+  background: #6f42c1;
+}
+
+.hidden {
+  display: none !important;
+}
